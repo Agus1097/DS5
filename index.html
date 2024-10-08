@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi curso JS</title>
+  <style>
+    h2 {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>1 - Java Script</h1>
+  <h2>Antes de iniciar cualquier ejercicio abra la consola con F12</h2>
+
+  <h3>Ejercicio 1</h3>
+  <p>Ejercicio 1: Generar un proyecto de vite para javascript vanilla, preparar el entorno para trabajar en el index y
+    el main.js(no debe tener el mismo nombre de carpetas pero si estar en este entorno de desarrollo)</p>
+
+  <h3>Ejercicio 2</h3>
+  <p>Crea un script que declare tres variables: a, b, y c. Asigna a a y b valores numéricos y haz que c sea la suma de
+    a
+    y b. Imprime el resultado en la consola. <br>
+    Requisito: mostrar por consola el resultado de los valores declarados en el codigo si a(5), b(10) c = 15</p>
+  <button onclick="ejercicio_1_2()">Haga click aqui para iniciar el ejercicio 2</button>
+
+  <h3>Ejercicio 3</h3>
+  <p>Escribe un programa que pida al usuario su nombre y lo almacene en una variable. Luego, imprime un saludo en la
+    consola que incluya el nombre del usuario. <br>
+    Requisito: se debe utilizar la instrucción prompt y pedir mediante este elemento el nombre y luego mostrarlo en
+    consola</p>
+  <button onclick="ejercicio_1_3()">Haga click aqui para iniciar el ejercicio 3</button>
+
+  <h1>2 - Operadores lógicos y condicionales</h1>
+
+  <h3>Ejercicio 1</h3>
+  <p>Crea un script que declare tres variables: a, b, y c. Asigna a a y b valores numéricos y determina cual es el
+    mayor. Imprime el resultado en la consola.</p>
+  <button onclick="ejercicio_2_1()">Haga click aqui para iniciar el ejercicio 1</button>
+
+  <h3>Ejercicio 2</h3>
+  <p>Crea un programa que pida al usuario un número y determine si es par o impar. <br>
+    Requisitos: utilice la instrucción propmt si es par, debe mostrar "El número (numeroIngresado) es par", y si es
+    impar, "El número (numeroIngresado) es impar".
+  </p>
+  <button onclick="ejercicio_2_2()">Haga click aqui para iniciar el ejercicio 2</button>
+
+  <h1>3 - Operadores de asignación y bucles</h1>
+
+  <h3>Ejercicio 1</h3>
+  <p>Crea un script que inicialice una variable en 10 y luego use un bucle while para restarle 1 en cada iteración
+    hasta
+    que la variable sea igual a 0. Imprime el valor de la variable en cada iteración.</p>
+  <button onclick="ejercicio_3_1()">Haga click aqui para iniciar el ejercicio 1</button>
+
+  <h3>Ejercicio 2</h3>
+  <p>Escribe un programa que utilice un bucle do...while para pedirle al usuario que ingrese un número mayor a 100. El
+    bucle debe repetirse hasta que el usuario ingrese un número mayor a 100. <br>
+    Requisitos: Debe utilizarse la instrucción prompt y luego mostrar por consola el número ingresado de la manera que
+    se muestra abajo.</p>
+  <button onclick="ejercicio_3_2()">Haga click aqui para iniciar el ejercicio 2</button>
+
+  <h1>4 - Funciones de JavaScript</h1>
+
+  <h3>Ejercicio 1</h3>
+  <p>Escribe una función llamada esPar que reciba un número como parámetro y retorne true si el número es par y false
+    si es impar. Prueba la función con diferentes números.</p>
+  <button onclick="pruebaEjercicio_4_1()">Haga click aqui para iniciar el ejercicio 1</button>
+
+  <h3>Ejercicio 2</h3>
+  <p>Crea una función llamada convertirCelsiusAFahrenheit que reciba un valor en grados Celsius y lo convierta a
+    Fahrenheit. La fórmula es F = C × 1.8 + 32. Muestra el resultado en la consola.</p>
+  <button onclick="pruebaEjercicio_4_2()">Haga click aqui para iniciar el ejercicio 2</button>
+
+  <h1>5 - Objetos en JavaScript</h1>
+
+  <h3>Ejercicio 1</h3>
+  <p>Define un objeto persona con las propiedades nombre, edad, y ciudad. Luego, agrega un método que permita cambiar
+    la ciudad de la persona. Usa el método para actualizar la ciudad y muestra las propiedades actualizadas en la
+    consola.</p>
+  <button onclick="ejercicio_5_1()">Haga click aquí para ejecutar el ejercicio 1</button>
+
+  <h3>Ejercicio 2</h3>
+  <p>Crea un objeto libro con propiedades titulo, autor, y año. Luego, escribe un método que determine si el libro
+    tiene más de 10 años desde su publicación. Muestra un mensaje en la consola indicando si el libro es antiguo o
+    reciente.</p>
+  <button onclick="ejercicio_5_2()">Haga click aquí para ejecutar el ejercicio 2</button>
+
+  <h1>6 - Arrays</h1>
+
+  <h3>Ejercicio 1</h3>
+  <p>Declara un array llamado numeros con los números del 1 al 10. Escribe un bucle que multiplique cada número por 2 y
+    almacene los resultados en un nuevo array. Muestra el array original y el nuevo array en la consola.</p>
+  <button onclick="ejercicio_6_1()">Haga click aquí para ejecutar el ejercicio 1</button>
+
+  <h3>Ejercicio 2</h3>
+  <p>Crea un array vacío llamado pares. Escribe un bucle for que itere hasta 20 y que agregue los primeros 10 números
+    pares al array. Al final, imprime el array pares en la consola.</p>
+  <button onclick="ejercicio_6_2()">Haga click aquí para ejecutar el ejercicio 2</button>
+
+  <h1>7 - Introducción al DOM</h1>
+
+  <h3>Ejercicio 1</h3>
+  <p>En el html muestra tres elementos de tipo <code>&lt;p&gt;</code> y haz un botón que dispara una función y nos
+    permita cambiar todos nuestros elementos de tipo <code>&lt;p&gt;</code> en nuestra página de color azul.</p>
+  <p id="pp">Este es el primer párrafo.</p>
+  <p id="pp">Este es el segundo párrafo.</p>
+  <p id="pp">Este es el tercer párrafo.</p>
+  <button onclick="ejercicio_7_1()">Cambiar color de los párrafos a azul</button>
+
+  <h3>Ejercicio 2</h3>
+  <p>Crea un formulario simple con un campo de texto y un botón. Escribe un script en JavaScript que muestre una alerta
+    con el valor ingresado en el campo de texto cuando el usuario haga clic en el botón.</p>
+  <input type="text" id="campoTexto" placeholder="Ingresa un texto aquí">
+  <button onclick="ejercicio_7_2()">Mostrar alerta</button>
+
+  <h1>8 - Eventos en DOM</h1>
+
+  <h3>Ejercicio 1</h3>
+  <p>Crea una lista (<code>&lt;ul&gt;</code>) con varios elementos (<code>&lt;li&gt;</code>). Escribe un script que
+    agregue un evento click a cada elemento de la lista para que, cuando se haga clic en un <code>&lt;li&gt;</code>, se
+    muestre su texto en la consola.</p>
+  <ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+    <li>Elemento 5</li>
+  </ul>
+
+  <h3>Ejercicio 2</h3>
+  <p>Crea un campo de texto y un botón en una página HTML. Escribe un script que haga que el botón deshabilite el campo
+    de texto cuando se haga clic en él. Luego, añade otro botón que vuelva a habilitar el campo de texto.</p>
+  <input type="text" id="campoTexto2" placeholder="Ingresa texto aquí">
+  <button onclick="deshabilitarCampo()">Deshabilitar campo</button>
+  <button onclick="habilitarCampo()">Habilitar campo</button>
+
+  <h1>9 - LocalStorage</h1>
+
+  <h3>Ejercicio 1</h3>
+  <p>Crea un formulario con un campo para el correo electrónico. Escribe un script que guarde el correo en localStorage
+    cuando el usuario envíe el formulario. Si este existe, muéstralo en el DOM debajo del input y también haz un botón
+    de eliminar este elemento. Al recargar la página, este debe mostrarse si existe.</p>
+
+  <form onsubmit="guardarCorreo(event)">
+    <input type="email" id="correo" placeholder="Ingresa tu correo electrónico" required>
+    <button type="submit">Guardar correo</button>
+  </form>
+
+  <p id="displayCorreo"></p>
+  <button id="eliminarBoton" style="display:none;" onclick="eliminarCorreo()">Eliminar correo</button>
+  <script src="/main.js"></script>
+</body>
+
+</html>
